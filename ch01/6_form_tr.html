@@ -30,6 +30,43 @@
                     <input type="password" id="password"> <font size="2">(영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 8자~16자)</font></td>
                 
             </tr>
+            <tr>
+                <td>
+                <label for="password_confirm" style="margin-right: 65px;">비밀번호 확인*</label>
+                <input type="password" id="password_confirm"></td>
+             </tr>
+            <tr>
+                <td>
+                <label for="name" style="margin-right: 135px;">이름*</label>
+                <input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>
+                <label for="phone" style="margin-right: 103px;">휴대전화*</label>
+                <select id="phone">
+                <option>010</option>
+                <option>011</option>
+                <option>016</option>
+                <option>017</option>
+                <option>018</option>
+                <option>019</option>
+           </select>
+                - <input type="text" id="phone_number1" maxlength="1" size="5"> -
+                <input type="text" id="phone_number2" maxlength="1" size="5">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                <label for="email" style="margin-right:118px;">이메일*</label>
+                <input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td>
+                <label for="email_check" style="margin-right:48px; margin-top:48px;">이메일 수신여부*</label>
+                <input type="button" id="email_check" style="width: 8px; height: 15px;">  동의함
+                <div style="font-size: 12px; margin-left: 178px; margin-top: 4px;">쇼핑몰에서 제공하는 유익한 이벤트 소식을 이메일로 받으실 수 있습니다.</div>
+                </td>
+            </tr>
         </table>
        
     </form>
