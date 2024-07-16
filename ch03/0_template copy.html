@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Sidebar Menu</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    .sidebar {
+      height: 100vh;
+      position: fixed;
+      background: #f8f9fa;
+      padding-top: 20px;
+    }
+    .sidebar .nav-link {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<div class="d-flex"> 
+  <div class="sidebar p-3">
+    <h6 class="text-primary">Home</h6>
+    <ul class="nav flex-column mb-2">
+      <li class="nav-item">
+        <a class="nav-link" href="#">E commerce</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="collapse" href="#projectManagement" role="button" aria-expanded="false" aria-controls="projectManagement">
+          Project management
+        </a>
+        <div class="collapse" id="projectManagement">
+          <ul class="nav flex-column ml-3">
+            <li class="nav-item">
+              <a class="nav-link" href="#">CRM <span class="badge badge-primary">New</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Social feed</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+    <h6 class="text-primary">Apps</h6>
+    <ul class="nav flex-column mb-2">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> E commerce</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-phone"></i> CRM <span class="badge badge-primary">New</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-tasks"></i> Project management</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-comments"></i> Chat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Email</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-calendar"></i> Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-tasks"></i> Kanban <span class="badge badge-primary">New</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-share-alt"></i> Social</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-calendar-alt"></i> Calendar</a>
+      </li>
+    </ul>
+  </div>
+  <div class="content p-4">
+    <!-- Page content goes here -->
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
