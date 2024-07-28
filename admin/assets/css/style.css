@@ -20,12 +20,12 @@ body {
 }
 
 a {
-  color: #4154f1;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -37,6 +37,25 @@ h5,
 h6 {
   font-family: "Nunito", sans-serif;
 }
+.p1 {
+  font-family: "Nunito", sans-serif;
+  color:#000000;
+  font-size : 25px;
+  font-weight: bold;
+}
+
+.p2 {
+  font-family: "Nunito", sans-serif;
+  color:#000000;
+  font-size : 15px;
+  
+}
+
+.p3{
+  color:#0c4abb;
+  font-weight: bold;
+}
+
 
 /*--------------------------------------------------------------
 # Main
@@ -180,6 +199,8 @@ h6 {
   }
 }
 
+
+
 /* Light Backgrounds */
 .bg-primary-light {
   background-color: #cfe2ff;
@@ -219,24 +240,24 @@ h6 {
 /* Card */
 .card {
   margin-bottom: 30px;
-  border: none;
+  border: 30px;
   border-radius: 5px;
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  
 }
 
 .card-header,
 .card-footer {
-  border-color: #ebeef4;
+  border-color: #640d0d;
   background-color: #fff;
   color: #798eb3;
   padding: 15px;
 }
 
 .card-title {
-  padding: 20px 0 15px 0;
-  font-size: 18px;
-  font-weight: 500;
-  color: #012970;
+  padding: 16px 100px 10px 0px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -307,25 +328,26 @@ h6 {
 .breadcrumb {
   font-size: 14px;
   font-family: "Nunito", sans-serif;
-  color: #899bbd;
+  color: #0c4abb;
   font-weight: 600;
+  
 }
 
 .breadcrumb a {
-  color: #899bbd;
+  color: #0c4abb;
   transition: 0.3s;
 }
 
 .breadcrumb a:hover {
-  color: #51678f;
+  color: #183a79;
 }
 
 .breadcrumb .breadcrumb-item::before {
-  color: #899bbd;
+  color: #000000;
 }
 
 .breadcrumb .active {
-  color: #51678f;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -396,7 +418,7 @@ h6 {
 
 .header .search-bar {
   min-width: 360px;
-  padding: 0 20px;
+  padding: 0 200px;
 }
 
 @media (max-width: 1199px) {
@@ -1214,20 +1236,20 @@ h6 {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  padding: 20px 0;
+  padding: 10px 100px 20px 30px;
   font-size: 14px;
   transition: all 0.3s;
   border-top: 1px solid #cddfff;
 }
 
 .footer .copyright {
-  text-align: center;
-  color: #012970;
+  text-align: left;
+  color: #171819;
 }
 
 .footer .credits {
   padding-top: 5px;
-  text-align: center;
+  text-align: left;
   font-size: 13px;
   color: #012970;
 }

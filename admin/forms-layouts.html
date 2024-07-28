@@ -516,19 +516,19 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>CODE</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.html">page1</a></li>
           <li class="breadcrumb-item">page2</li>
           <li class="breadcrumb-item active">default</li>
         </ol>
+        <p class="p1">CODE</p1>
       </nav>
     </div><!-- End Page Title -->
     <section class="section">
       <div class="row">
         <div class="col">
-         <div class="card card-1" >
+         <div class="card card-1 " >
             <div class="card-body border">
               <h5 class="card-title">기본정보</h5>
         
@@ -536,8 +536,8 @@
            
              <!-- Multi Columns Form -->
               <form class="row g-3">
-               <div class="col-3">
-                  <label for="code_group" class="form-label">코드1</label>
+               <div class="col-sm-12 col-md-6 col-lg-3">
+                  <label for="code_group" class="form-label">코드그룹*</label>
                   <select class="form-select" id="code_group">
                   <option selected="">선택하세요</option>
                               <option value="1">One</option>
@@ -546,109 +546,112 @@
                             </select>
                 </div>
                 <div class="row g-2">
-                <div class="col-3">
-                  <label for="inputName5" class="form-label">코드1</label>
-                  <input type="text" class="form-control" id="inputName5">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <label for="code" class="form-label">코드*</label>
+                  <input type="text" class="form-control" id="code" placeholder="자동생성" disabled>
                 </div>
-                <div class="col-3">
-                  <label for="inputEmail5" class="form-label">코드2</label>
-                  <input type="email" class="form-control" id="inputEmail5">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <label for="code_another" class="form-label">코드 (ANOTHER)</label>
+                  <input type="email" class="form-control" id="code_another" placeholder="영대소문자,숫자">
                 </div>
-                <div class="col-3">
-                  <label for="inputPassword5" class="form-label">코드3</label>
-                  <input type="password" class="form-control" id="inputPassword5">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <label for="code_name" class="form-label">코드 이름*</label>
+                  <input type="password" class="form-control" id="code_name" placeholder="한글,영대소문자,숫자">
                 </div>
-                <div class="col-3">
-                  <label for="inputAddress5" class="form-label">코드4</label>
-                  <input type="text" class="form-control" id="inputAddres5s" placeholder="1234 Main St">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  <label for="code_name_eng" class="form-label">코드 이름 (영문)</label>
+                  <input type="text" class="form-control" id="code_name_eng" placeholder="영대소문자,숫자">
                 </div>
                 </div>
                 <div class="row g-2">
-                  <div class="col-3">
-                    <label for="inputName5" class="form-label">코드4</label>
-                    <input type="text" class="form-control" id="inputName5">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                    <label for="use" class="form-label">사용여부*</label>
+                    <select class="form-select" id="use">
+                                <option value="1">사용</option>
+                                <option value="2">미사용</option>
+                              </select>
                   </div>
-                  <div class="col-3">
-                    <label for="inputEmail5" class="form-label">코드6</label>
-                    <input type="email" class="form-control" id="inputEmail5">
+                  <div class="col-sm-12 col-md-6 col-lg-3">
+                    <label for="line" class="form-label">순서*</label>
+                    <input type="text" class="form-control" id="line">
                   </div>
                   </div>
                   <div class="row g-2">
-                    <div class="col-6">
-                      <label for="inputName5" class="form-label">설명</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                      <label for="explain" class="form-label">설명</label>
+                      <textarea class="form-control" id="explain" rows="3"></textarea>
                     </div>
                     </div>
                     <div class="row g-2">
-                      <div class="col-3">
-                        <label for="inputName5" class="form-label">다국어1</label>
-                        <input type="text" class="form-control" id="inputName5">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <label for="lang1" class="form-label">다국어1</label>
+                        <input type="text" class="form-control" id="lang1">
                       </div>
-                      <div class="col-3">
-                        <label for="inputEmail5" class="form-label">다국어2</label>
-                        <input type="email" class="form-control" id="inputEmail5">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <label for="lang2" class="form-label">다국어2</label>
+                        <input type="text" class="form-control" id="lang2">
                       </div>
-                      <div class="col-3">
-                        <label for="inputPassword5" class="form-label">다국어3</label>
-                        <input type="password" class="form-control" id="inputPassword5">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <label for="lang3" class="form-label">다국어3</label>
+                        <input type="text" class="form-control" id="lang3">
                       </div>
-                      <div class="col-3">
-                        <label for="inputAddress5" class="form-label">다국어4</label>
-                        <input type="text" class="form-control" id="inputAddres5s" placeholder="1234 Main St">
+                      <div class="col-sm-12 col-md-6 col-lg-3">
+                        <label for="lang4" class="form-label">다국어4</label>
+                        <input type="text" class="form-control" id="lang4">
                       </div>
                       </div>
                       <div class="row g-2">
-                        <div class="col-3">
-                          <label for="inputName5" class="form-label">다국어5</label>
-                          <input type="text" class="form-control" id="inputName5">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                          <label for="lang5" class="form-label">다국어5</label>
+                          <input type="text" class="form-control" id="lang5">
                         </div>
-                        <div class="col-3">
-                          <label for="inputEmail5" class="form-label">다국어6</label>
-                          <input type="email" class="form-control" id="inputEmail5">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                          <label for="lang6" class="form-label">다국어6</label>
+                          <input type="text" class="form-control" id="lang6">
                         </div>
-                        <div class="col-3">
-                          <label for="inputPassword5" class="form-label">다국어7</label>
-                          <input type="password" class="form-control" id="inputPassword5">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                          <label for="lang7" class="form-label">다국어7</label>
+                          <input type="text" class="form-control" id="lang7">
                         </div>
-                        <div class="col-3">
-                          <label for="inputAddress5" class="form-label">다국어8</label>
-                          <input type="text" class="form-control" id="inputAddres5s" placeholder="1234 Main St">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                          <label for="lang8" class="form-label">다국어8</label>
+                          <input type="text" class="form-control" id="lang8">
                         </div>
                         </div>
                         <div class="row g-2">
-                          <div class="col-3">
-                            <label for="inputName5" class="form-label">예비1</label>
-                            <input type="text" class="form-control" id="inputName5">
+                          <div class="col-sm-12 col-md-6 col-lg-3">
+                            <label for="reserve1" class="form-label">예비1</label>
+                            <input type="text" class="form-control" id="reserve1">
                           </div>
-                          <div class="col-3">
-                            <label for="inputEmail5" class="form-label">예비2</label>
-                            <input type="email" class="form-control" id="inputEmail5">
+                          <div class="col-sm-12 col-md-6 col-lg-3">
+                            <label for="reserve2" class="form-label">예비2</label>
+                            <input type="text" class="form-control" id="reserve2">
                           </div>
-                          <div class="col-3">
-                            <label for="inputPassword5" class="form-label">예비3</label>
-                            <input type="password" class="form-control" id="inputPassword5">
+                          <div class="col-sm-12 col-md-6 col-lg-3">
+                            <label for="reserve3" class="form-label">예비3</label>
+                            <input type="text" class="form-control" id="reserve3">
                           </div>
-                          <div class="col-3">
-                            <label for="inputAddress5" class="form-label">예비4</label>
-                            <input type="text" class="form-control" id="inputAddres5s" placeholder="1234 Main St">
+                          <div class="col-sm-12 col-md-6 col-lg-3">
+                            <label for="reserve4" class="form-label">예비4</label>
+                            <input type="text" class="form-control" id="reserve4">
                           </div>
                           </div>
                           <div class="row g-2">
-                            <div class="col-3">
-                              <label for="inputName5" class="form-label">예비5</label>
-                              <input type="text" class="form-control" id="inputName5">
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                              <label for="reserve5" class="form-label">예비5</label>
+                              <input type="text" class="form-control" id="reserve5">
                             </div>
-                            <div class="col-3">
-                              <label for="inputEmail5" class="form-label">예비6</label>
-                              <input type="email" class="form-control" id="inputEmail5">
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                              <label for="reserve6" class="form-label">예비6</label>
+                              <input type="text" class="form-control" id="reserve6">
                             </div>
-                            <div class="col-3">
-                              <label for="inputPassword5" class="form-label">예비7</label>
-                              <input type="password" class="form-control" id="inputPassword5">
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                              <label for="reserve7" class="form-label">예비7</label>
+                              <input type="text" class="form-control" id="reserve7">
                             </div>
-                            <div class="col-3">
-                              <label for="inputAddress5" class="form-label">예비8</label>
-                              <input type="text" class="form-control" id="inputAddres5s" placeholder="1234 Main St">
+                            <div class="col-sm-12 col-md-6 col-lg-3">
+                              <label for="reserve8" class="form-label">예비8</label>
+                              <input type="text" class="form-control" id="reserve8">
                             </div>
                             </div>
                 
@@ -667,19 +670,15 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
+    <div class="row">
     <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+      &copy; Copyright 2024. <span class="p3">Misamo all rights reserved.</strong></span>
     </div>
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
+    
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
