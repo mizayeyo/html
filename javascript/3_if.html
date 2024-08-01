@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+    // var a = 13;
+
+    // if(a > 11){
+    //     alert("a가 크다");
+    // } else { // 관례적 띄어쓰기 } else {
+    //     alert("a가 작다");
+    // }
+
+    var engScore = 77;
+
+    // 90점 이상 a
+    // 80점 이상 b
+    // 70점 이상 c
+    // 60점 이상 d
+    // 50점 이하 f
+
+    if(engScore >= 90){
+        // alert("A");
+    } else if(engScore >= 80) {
+        // alert("B");
+    } else if(engScore >= 70) {
+        // alert("C");
+    } else if(engScore >= 60) {
+        // alert("D");
+    } else {
+        // alert("F");
+    }
+
+    if(engScore >= 90){
+        // alert("A");
+    } else if(engScore <=89 && engScore >= 80) {
+        // alert("B");
+    } else if (engScore <= 79 && engScore >= 70) {
+        // alert("C");
+    } else if (engScore <= 69 && engScore >= 60) {
+        // alert("D");
+    } else {
+        // alert("F");
+    }
+
+    // 90점 이상 a
+    // 100 ~ 97 : a+
+    // 96 ~ 94 : a0
+    // 93 ~ 90 : a-
+
+    var engScore = 77;
+
+    if(engScore >= 90){
+        if(engScore >= 97){
+            alert("A+");
+        } else if(engScore <= 96 && engScore >=94) {
+            alert("A0");
+        } else {
+            alert("A-");
+        }
+    } else if(engScore >= 80) {
+        if (engScore >= 87) {
+            alert("B+");
+        } else if (engScore <= 86 && engScore >= 84) {
+            alert("B0");
+        } else {
+            alert("B-");
+        }
+    } else if(engScore >= 70) {
+        if (engScore >= 77) {
+            alert("C+");
+        } else if (engScore <= 76 && engScore >= 74) {
+            alert("C0");
+        } else {
+            alert("C-");
+        }
+    } else if(engScore >= 60) {
+        if (engScore >= 67) {
+            alert("D+");
+        } else if (engScore <= 66 && engScore >= 64) {
+            alert("D0");
+        } else {
+            alert("D-");
+        }
+    } else {
+        alert("F")
+    }
+</script>
+</body>
+</html>
