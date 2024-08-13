@@ -13,7 +13,19 @@
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+        body {
+            font-family: 'Dongle', sans-serif;
+
+        }
+    </style>
+
+
 </head>
+
+<body>
     <!-- Body Inner -->
     <div class="body-inner">
         <!-- Header -->
@@ -22,9 +34,863 @@
                 <div class="container">
                     <!--Logo-->
                     <div id="logo">
-                        <a href="index.html">
+                        <a href="/html/pprj/Template/00_main.html">
                             <span class="logo-default">로고</span>
                             <span class="logo-dark">로고</span>
                         </a>
                     </div>
                     <!--End: Logo-->
+                    <!-- Search -->
+                    <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i
+                                class="icon-x"></i></a>
+                        <form class="search-form" action="search-results-page.html" method="get">
+                            <input class="form-control" name="q" type="text" placeholder="Type & Search..." />
+                            <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                        </form>
+                    </div>
+                    <!-- end: search -->
+                    <!--Header Extras-->
+                    <div class="header-extras">
+                        <ul>
+                            <li>
+                                <a id="btn-search" href="#"> <i class="icon-search"></i></a>
+                            </li>
+                            <li>
+                                <div class="p-dropdown">
+                                    <a href="#"><i class="icon-globe"></i><span>EN</span></a>
+                                    <ul class="p-dropdown-content">
+                                        <li><a href="#">French</a></li>
+                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="#">English</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--end: Header Extras-->
+                    <!--Navigation Resposnive Trigger-->
+                    <div id="mainMenu-trigger">
+                        <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
+                    <!--end: Navigation Resposnive Trigger-->
+                    <!--Navigation-->
+                    <div id="mainMenu">
+                        <div class="container">
+                           
+                            <nav>
+                                <ul>
+                                    <li class="dropdown">
+                                        <h4> <a href="/html/pprj/Template/08_shop-columns-6 copy.html">Home</h4></a>
+                                    </li>
+                                    <li>
+                                        <h4>오늘의 경매</h4></a>
+                                    </li>    
+                                    <li class="dropdown">
+                                        <h4>트레이딩카드</h4>
+                                        <ul class="dropdown-menu">
+                                            <h5>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">포켓몬 카드</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">유희왕 카드</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">드래곤볼 카드</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">원피스 카드</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">기타 카드</a>
+                                                </li>
+                                                </h5>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <h4>리멘트</h4>
+                                        <ul class="dropdown-menu">
+                                            <h5>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">리멘트1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">리멘트2</a>
+                                                </li>
+                                                <li><a href="#">리멘트3</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">리멘트4</a>
+                                                </li>
+                                                </h5>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <h4>피규어</h4>
+                                        <ul class="dropdown-menu">
+                                            <h5>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">건담</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">기타</a>
+                                                </li>
+                                                <li><a href="#">기타1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">기타2 </a>
+                                                </li>
+                                                </h5>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <h4>커뮤니티</h4>
+                                        <ul class="dropdown-menu">
+                                            <h5>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">포켓몬</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/html/pprj/Template/08_shop-columns-6 copy.html">유희왕</a>
+                                                </li>
+                                                <li><a href="#">드래곤볼</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">기타</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">자유게시판</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">질문게시판</a>
+                                                </li>
+                                                </h5>
+                                        </ul>
+                                    </li>
+                                   
+                    </div>
+                    <!--end: Navigation-->
+                </div>
+            </div>
+        </header>
+        <!-- end: Header -->
+        <!-- Inspiro Slider -->
+        <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-fade="true">
+            <!-- Slide 1 -->
+            <div class="slide kenburns" data-bg-image="images/logos/main3.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-center text-light">
+                        <!-- Captions -->
+                        <h1 data-caption-animate="zoom-out">caption1</h1>
+                        <p>caption1 details</p>
+                        <div><a href="#welcome" class="btn btn-primary scroll-to">Explore more</a></div>
+                        </span>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 1 -->
+            <!-- Slide 2 -->
+            <div class="slide" data-bg-image="images/logos/main1.jpg">
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="slide-captions text-start text-light">
+                        <!-- Captions -->
+                        <h1>caption2</h1>
+                        <p class="text-small">caption2 details</p>
+                        <div><a href="#welcome" class="btn btn-primary scroll-to">Explore more</a></div>
+                        <!-- end: Captions -->
+                    </div>
+                </div>
+            </div>
+            <!-- end: Slide 2 -->
+        </div>
+        <!--end: Inspiro Slider -->
+        <!-- WELCOME -->
+
+        <!-- WHAT WE DO -->
+        <!-- Shop products -->
+        <section id="page-content" class="sidebar-left">
+            <div class="container">
+                <div class="row">
+                    <!-- Content-->
+                    <div class="content col-lg-10">
+                        <div class="row m-b-20">
+                        </div>
+                        <!--Product list-->
+                        <div class="shop">
+                            <div class="text-center mb-0">
+                                <h3 class="mb-0">포켓몬 카드</h3>
+                                <div class="seperator"></div>
+                            </div>
+                            <div class="grid-layout grid-4-columns" data-item="grid-item">
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a
+                                                href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html"><img
+                                                    alt="Shop product image!" src="./images/misa/shop/shop1.jpg">
+                                            </a>
+                                            <a
+                                                href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html"><img
+                                                    alt="Shop product image!" src="./images/misa/shop/shop1.jpg">
+                                            </a>
+                                            <span class="product-new">NEW</span>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="09_shop-product-ajax-page copy.html" data-lightbox="ajax">Click</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop2.jpg">
+                                            </a>
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop2.jpg">
+                                            </a>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="09_shop-product-ajax-page copy.html" data-lightbox="ajax">Quick
+                                                    View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop3.jpg">
+                                            </a>
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop3.jpg">
+                                            </a>
+                                            <span class="product-hot">HOT</span>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="shop-product-ajax-page.html" data-lightbox="ajax">Quick
+                                                    View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop4.jpg">
+                                            </a>
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop4.jpg">
+                                            </a>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="shop-product-ajax-page.html" data-lightbox="ajax">Quick
+                                                    View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop5.jpg">
+                                            </a>
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop5.jpg">
+                                            </a>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="shop-product-ajax-page.html" data-lightbox="ajax">Quick
+                                                    View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop6.jpg">
+                                            </a>
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop6.jpg">
+                                            </a>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="shop-product-ajax-page.html" data-lightbox="ajax">Quick
+                                                    View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop6.jpg">
+                                            </a>
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop6.jpg">
+                                            </a>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="shop-product-ajax-page.html" data-lightbox="ajax">Quick
+                                                    View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="product">
+                                        <div class="product-image">
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop6.jpg">
+                                            </a>
+                                            <a href="#"><img alt="Shop product image!"
+                                                    src="./images/misa/shop/shop6.jpg">
+                                            </a>
+                                            <span class="product-wishlist">
+                                                <a href="#"><i class="fa fa-heart"></i></a>
+                                            </span>
+                                            <div class="product-overlay">
+                                                <a href="shop-product-ajax-page.html" data-lightbox="ajax">Quick
+                                                    View</a>
+                                            </div>
+                                        </div>
+                                        <div class="product-description">
+                                            <div>
+                                                <h5 class="sh-title"> <a href="/html/pprj/Template/03_shop-single-product-sidebar-left%20copy.html">꼬부기</a></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End: Product list-->
+                    </div>
+                    <!-- end: Content-->
+                    <!-- Sidebar-->
+                    <div class="sidebar col" style="position: relative; left: -80px;">
+
+                        <!--widget newsletter-->
+                        <div class="widget clearfix widget-archive">
+                            <!-- <div class="widget-title" data-bs-toggle="collapse" data-bs-target="#bagsMenu"
+                                aria-expanded="false" aria-controls="bagsMenu">카테고리</div> -->
+                            <ul class="list list-lines">
+                                <li>
+                                        <h4 style="color: #3b43da;">트레이딩 카드
+                                    </a></h4>
+                                    <ol class="no-numbers" style="list-style-type: none;">
+                                        <li> 
+                                            <a href="#">
+                                              <h6> 포켓몬 카드</h6>
+                                            </a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>유희왕 카드</h6></a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>드래곤볼 카드</h6></a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>기타 카드</h6></a> <span class="count"></span></li>
+                                    </ol>
+                            <ul class="list list-lines">
+                                <li>
+                                    <h4 style="color: #3b43da;">리멘트
+                                    </a></h4>
+                                    <ol class="no-numbers" style="list-style-type: none;">
+                                        <li> 
+                                       <li><a href="#"><h6>리멘트1</h6></a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>리멘트2</h6></a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>리멘트3</h6></a><span class="count"></span></li>
+                                    </ol>
+                               </ul>
+                               <ul class="list list-lines">
+                                <li><a href="#">
+                                    <h4 style="color: #3b43da;">피규어</a></h4>
+                                    </li>
+                               </ul>
+                               <ul class="list list-lines">
+                                <li>
+                                    <h4 style="color: #3b43da;">커뮤니티
+                                    </a></h4>
+                                    <ol class="no-numbers" style="list-style-type: none;">
+                                        <li> 
+                                       <li><a href="#"><h6>포켓몬 정보</h6></a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>유희왕 정보</h6></a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>드래곤볼 정보</h6></a><span class="count"></span></li>
+                                        <li><a href="#"><h6>자유게시판</h6></a> <span class="count"></span></li>
+                                        <li><a href="#"><h6>질문게시판</h6></a><span class="count"></span></li>
+                                    </ol>
+                               </ul>
+                        </div>
+                    </div>
+                    <!-- end: Sidebar-->
+                </div>
+            </div>
+        </section>
+        <!-- end: Shop products -->
+        <!-- PORTFOLIO -->
+        <section class="p-b-0 yellow-background">
+            <div class="container">
+                <div class="heading-text heading-section">
+                    <h2>Recent Work</h2>
+                </div>
+            </div>
+            <div class="portfolio yellow-background">
+                <!-- Portfolio Items -->
+                <div id="portfolio" class="grid-layout portfolio-6-columns" data-margin="0">
+              <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media ">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="./images/misa/item/1.jpg" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Let's Go Outside</h3>
+                                    <span>Illustrations / Graphics</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="./images/misa/item/2.jpg" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Let's Go Outside</h3>
+                                    <span>Illustrations / Graphics</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="./images/misa/item/1.jpg" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Let's Go Outside</h3>
+                                    <span>Illustrations / Graphics</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="./images/misa/item/2.jpg" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Let's Go Outside</h3>
+                                    <span>Illustrations / Graphics</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="./images/misa/item/2.jpg" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Let's Go Outside</h3>
+                                    <span>Illustrations / Graphics</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                        <div class="portfolio-item-wrap">
+                            <div class="portfolio-image">
+                                <a href="#"><img src="./images/misa/item/2.jpg" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <a href="portfolio-page-grid-gallery.html">
+                                    <h3>Let's Go Outside</h3>
+                                    <span>Illustrations / Graphics</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                    <!-- end: Portfolio Items -->
+                </div>
+        </section>
+        <!-- end: PORTFOLIO -->
+        <!-- BLOG -->
+        <section class="content background-grey">
+            <div class="container">
+                <div class="heading-text heading-section">
+                    <h2>OUR BLOG</h2>
+                  
+                </div>
+                <div id="blog" class="grid-layout post-4-columns m-b-30" data-item="post-item">
+                    <!-- Post item-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/12.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Lifestyle</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33
+                                        Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo
+                                    dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/17.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Science</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33
+                                        Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo
+                                    dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <!-- Post item-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/18.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Science</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33
+                                        Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo
+                                    dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post item-->
+                    <div class="post-item border">
+                        <div class="post-item-wrap">
+                            <div class="post-image">
+                                <a href="#">
+                                    <img alt="" src="images/blog/12.jpg">
+                                </a>
+                                <span class="post-meta-category"><a href="">Lifestyle</a></span>
+                            </div>
+                            <div class="post-item-description">
+                                <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                                <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33
+                                        Comments</a></span>
+                                <h2><a href="#">Standard post with a single image
+                                    </a></h2>
+                                <p>Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus luctus commodo
+                                    dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.</p>
+                                <a href="#" class="item-link">Read More <i class="icon-chevron-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: BLOG -->
+        <!-- TEAM -->
+        <section class="background-grey">
+            <div class="container">
+                <div class="heading-text heading-section text-center">
+                    <h2>MEET OUR TEAM</h2>
+                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.
+                    </p>
+                </div>
+                <div class="row team-members">
+                    <div class="col-lg-3">
+                        <div class="team-member">
+                            <div class="team-image">
+                                <img src="images/team/6.jpg">
+                            </div>
+                            <div class="team-desc">
+                                <h3>Alea Smith</h3>
+                                <span>Software Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                                <div class="align-center">
+                                    <a class="btn btn-xs btn-slide btn-light" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
+                                        <i class="fab fa-twitter"></i>
+                                        <span>Twitter</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
+                                        <i class="icon-mail"></i>
+                                        <span>Mail</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="team-member">
+                            <div class="team-image">
+                                <img src="images/team/7.jpg">
+                            </div>
+                            <div class="team-desc">
+                                <h3>Ariol Doe</h3>
+                                <span>Software Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                                <div class="align-center">
+                                    <a class="btn btn-xs btn-slide btn-light" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
+                                        <i class="fab fa-twitter"></i>
+                                        <span>Twitter</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
+                                        <i class="icon-mail"></i>
+                                        <span>Mail</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="team-member">
+                            <div class="team-image">
+                                <img src="images/team/8.jpg">
+                            </div>
+                            <div class="team-desc">
+                                <h3>Emma Ross</h3>
+                                <span>Software Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                                <div class="align-center">
+                                    <a class="btn btn-xs btn-slide btn-light" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
+                                        <i class="fab fa-twitter"></i>
+                                        <span>Twitter</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
+                                        <i class="icon-mail"></i>
+                                        <span>Mail</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="team-member">
+                            <div class="team-image">
+                                <img src="images/team/9.jpg">
+                            </div>
+                            <div class="team-desc">
+                                <h3>Victor Loda</h3>
+                                <span>Software Developer</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing tristique hendrerit laoreet. </p>
+                                <div class="align-center">
+                                    <a class="btn btn-xs btn-slide btn-light" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="100">
+                                        <i class="fab fa-twitter"></i>
+                                        <span>Twitter</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="#" data-width="118">
+                                        <i class="fab fa-instagram"></i>
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a class="btn btn-xs btn-slide btn-light" href="mailto:#" data-width="80">
+                                        <i class="icon-mail"></i>
+                                        <span>Mail</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: TEAM -->
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="widget">
+                                <div class="widget-title">Polo HTML5 Template</div>
+                                <p class="mb-5">Built with love in Fort Worth, Texas, USA<br> All rights reserved.
+                                    Copyright © 2021. INSPIRO.</p>
+                                <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923"
+                                    class="btn btn-inverted" target="_blank">Purchase Now</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Discover</div>
+                                        <ul class="list">
+                                            <li><a href="#">Features</a></li>
+                                            <li><a href="#">Layouts</a></li>
+                                            <li><a href="#">Corporate</a></li>
+                                            <li><a href="#">Updates</a></li>
+                                            <li><a href="#">Pricing</a></li>
+                                            <li><a href="#">Customers</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Features</div>
+                                        <ul class="list">
+                                            <li><a href="#">Layouts</a></li>
+                                            <li><a href="#">Headers</a></li>
+                                            <li><a href="#">Widgets</a></li>
+                                            <li><a href="#">Footers</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Pages</div>
+                                        <ul class="list">
+                                            <li><a href="#">Portfolio</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Shop</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="widget">
+                                        <div class="widget-title">Support</div>
+                                        <ul class="list">
+                                            <li><a href="#">Help Desk</a></li>
+                                            <li><a href="#">Documentation</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-content">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2021 POLO - Responsive Multi-Purpose HTML5 Template.
+                        All Rights Reserved.<a href="https://www.inspiro-media.com" target="_blank" rel="noopener">
+                            INSPIRO</a> </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end: Footer -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
