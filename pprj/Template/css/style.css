@@ -1798,7 +1798,7 @@ Portfolio
 
 .post-item.border .post-item-wrap { border: 1px solid #f2f2f2; }
 
-.post-item.border > .post-item-wrap > .post-item-description { padding: 24px !important; width: 100% !important; }
+.post-item.border > .post-item-wrap > .post-item-description { padding: 0px 0 0 10px !important; width: 100% !important; }
 
 .post-item.quote .post-item-wrap { background-color: #2250fc; border-radius: 4px; border-width: 0; }
 
@@ -3309,7 +3309,7 @@ Helpers
 
 .p-200 { padding: 200px !important; }
 
-.p-b-0 { padding-bottom: 0px !important; }
+.p-b-0 { padding-bottom: 30px !important; }
 
 .p-b-5 { padding-bottom: 5px !important; }
 
@@ -6816,6 +6816,9 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   font-weight: 200;
 }
 
+.p-center{
+  text-align: center;
+}
 
 
 .fa-heart:hover {
@@ -6883,8 +6886,19 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   color:#007ee5;
 }
 
+.font-white{
+  color:#FFFFFF;
+}
+
 .yellow-background {
   background-color: #0090f0; /* 노란색 배경 설정 */
-  padding: 20px; /* 상자 안의 여백 설정 (선택사항) */
+  padding: 20px 5px 5px 20px /* 상자 안의 여백 설정 (선택사항) */
+  height:500px;
   
 }
+
+.border-radius {
+  border-radius: 15px; /* 모서리를 15px 정도 둥글게 설정 */
+  overflow: hidden; /* 둥글게 설정한 영역 밖으로 이미지가 넘치지 않도록 설정 */
+}
+

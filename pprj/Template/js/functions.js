@@ -3432,3 +3432,11 @@ var INSPIRO = {},
         INSPIRO.header.mainMenuResponsiveShow();
     });
 })(jQuery);
+
+$('.custom-carousel').slick({
+    speed: 300, // 슬라이드 전환 속도 (ms)
+    autoplaySpeed: 1000, // 자동 전환 시간 (ms)
+    slidesToShow: 4, // 한 번에 보여지는 슬라이드 수
+    slidesToScroll: 1, // 한 번에 스크롤되는 슬라이드 수
+    autoplay: true, // 자동 재생 설정
+  });
