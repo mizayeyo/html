@@ -1991,7 +1991,7 @@ Portfolio
 
 .comments .comment .image { border-radius: 65px; display: block; float: left; height: 65px; overflow: hidden; width: 65px; }
 
-.comments .comment .text { padding: 0 0 0 86px; min-height: 80px; position: relative; }
+.comments .comment .text { padding: 0 0 0 0px; min-height: 10px; position: relative; }
 
 .comments .comment .text .name { display: block; color: #303030; font-size: 16px; font-weight: 700; margin-bottom: -4px; }
 
@@ -6818,12 +6818,34 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
 
 .p3{
   font-size: 1.5em;
-  color: blue;
+  color: #000000;
   font-weight: 400;
   text-align: left;
   margin-bottom: -8px; !important;
   padding-left: 10px;
 }
+
+.p4{
+  font-size: 1.2em;
+  color: grey;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 5px; 
+  margin-top: px;
+  padding-left: 10px;
+}
+
+.p5{
+  font-size: 3.2em;
+  color: #3c3c39;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 5px; 
+  margin-top: px;
+  padding-left: 10px;
+}
+
+
 
 .p-center{
   text-align: center;
@@ -6916,8 +6938,139 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
 }
 
 .ps{
-  font-size: 1.5em;!important
+  font-size: 1.5em !important;
 }
+
+.ps2{
+  font-size: 2em !important;
+}
+
+.ps3{
+  font-size: 1.3em !important;
+  text-align: center;
+}
+
+.ps4 a{
+  font-size: 1.3em !important;
+  text-align: center;
+  color: gray !important;
+}
+
+.ps5 {
+  font-size: 1.5em; /* 원하는 크기 */
+  color: gray; /* 원하는 색상 */
+  text-align: center; /* 원하는 정렬 */
+  /* 다른 스타일들 */
+}
+
+.ps6 {
+  font-size: 2em; /* 원하는 폰트 사이즈 설정 */
+  font-weight: 400; /* 폰트 굵기 설정 */
+  color: #333; /* 폰트 색상 설정 */
+}
+.ps7 {
+  font-size: 2em; /* 원하는 폰트 사이즈 설정 */
+  font-weight: 400; /* 폰트 굵기 설정 */
+  color: #333; /* 폰트 색상 설정 */
+  padding-top: 11px !important;
+}
+
+.ps8{
+  font-size: 1.8em 
+  font-weight: 300;
+}
+
+.ps9{
+  font-size: 1.2em ;
+  font-weight: 400;
+}
+
+.ps10{
+  font-size: 1.8em ;
+  font-weight: 300;
+  
+}
+
+.ps11{
+  font-size: 1.3em !important;
+  text-align: left;
+  color: gray !important;
+  margin-top: -30px !important;
+}
+
+.ps12{
+  font-size: 2.5em;
+  text-align: left;
+  color: #000000;
+  margin-top: -10px;
+}
+
+.ps13{
+  font-size: 2em !important;
+  text-align: right !important;
+  color: #000000;
+  margin-top: -10px;
+}
+
+.ps14{
+  font-size: 2em;
+  text-align: left;
+  color: #000000;
+  margin-top: -10px;
+}
+
+.ps15{
+  font-size: 1.3em ;
+  text-align: left;
+  color: gray ;
+  margin-top: -10px;
+
+}
+
+.ps16{
+  font-size: 2.1em ;
+  /* text-align: left; */
+  
+  
+}
+
+.ps17{
+  font-size: 2.1em ;
+  /* text-align: left; */
+  padding-top: -30px;
+  
+}
+
+.ps18{
+  font-size: 1.8em ;
+  font-weight: 300;
+  margin-bottom: -0.2rem !important;
+}
+
+.ps19{
+  font-size: 1.8em ;
+  font-weight: 300;
+  line-height: 1.5em; /* 폰트 크기보다 크거나 같은 값을 설정 */
+  margin-bottom: 20px;
+  
+}
+
+
+.form-group {
+  margin-bottom: 1rem; /* 하단 여백 설정 */
+}
+
+label {
+  display: block; /* label을 블록으로 설정하여 입력 필드와 동일한 행에 위치 */
+  margin-bottom: 0.5rem; /* label과 입력 필드 사이의 여백 설정 */
+}
+
+input.form-control {
+  height: 2.5rem; /* 입력 필드의 높이 설정, 필요에 따라 조정 */
+  padding: 0.5rem; /* 입력 필드 내부 여백 설정 */
+  font-size: 1rem; /* 입력 필드의 폰트 사이즈 설정 */
+}
+
 .font-yellow{
   color:#fcfa95;
 }
@@ -6943,6 +7096,8 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   background-image: url(/html/pprj/Template/images/misa/pattern/gplay.png); 
   background-repeat: repeat; /* 패턴 반복 */
   background-size: auto; /* 패턴 이미지 크기 */
+  padding-top: 100px;
+  margin-top: 50px;
 }
 
 .bp-pikachu {
@@ -7050,6 +7205,387 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   max-width: 100%; /* 최대 너비 설정 */
   height: 264px; /* 높이는 자동 조정 */
   align-items:left ;
+}
+
+.bottom-line {
+  height: 5px; /* 라인의 두께 */
+  width: 100%; /* 라인이 col-lg-3의 너비를 채우도록 설정 */
+  position: absolute; /* 위치 설정 */
+  bottom: 0; /* col-lg-3의 하단에 위치 */
+  left: 0; /* 왼쪽에서 시작 */
+}
+
+/* 각각의 색상 설정 */
+.line-red {
+  background-color: red;
+}
+
+.line-green {
+  background-color: green;
+}
+
+.line-blue {
+  background-color: blue;
+}
+
+.line-orange {
+  background-color: orange;
+}
+
+.line-purple {
+  background-color: purple;
+}
+
+.line-pink {
+  background-color: pink;
+}
+
+.line-teal {
+  background-color: teal;
+}
+
+.line-brown {
+  background-color: brown;
+}
+
+/* col-lg-3의 상대적 위치 설정 */
+.col-lg-3 {
+  position: relative;
+}
+
+
+.event-shadow{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* 그림자 효과 */
+  transition: box-shadow 0.3s ease; /* 호버 시 부드러운 전환 효과 */
+}
+
+
+.team-image {
+  position: relative; /* 부모 요소를 기준으로 위치 조정 */
+}
+
+.icon-small {
+  width: 20px;
+  height: 20px;
+  position: absolute; /* 절대 위치 조정 */
+  top: 205px; /* 상단에서 0px */
+  right: 0; /* 오른쪽에서 0px */
+}
+
+.events-img{
+  width: 525p;
+  height: 350px;
+}
+
+.ins-price {
+  font-size: 4em  !important;
+  font-weight: 500 !important;
+  color: #f1323d !important;
+  margin-top: 10px; /* 위쪽 여백 조정 */
+  margin-right: 0px !important;
+  display: inline-block; /* 필요 시 요소를 인라인 블록으로 설정 */
+  position: relative; /* 상대 위치 설정 */
+  top: 5px; /* 위쪽으로 5px 이동 */
+  right: 100px !important;
+}
+
+.ins-price2 {
+  font-size: 4em  !important;
+  font-weight: 500 !important;
+  color: #f1323d !important;
+  margin-top: 350px; /* 위쪽 여백 조정 */
+  right:310px;
+  display: inline-block; /* 필요 시 요소를 인라인 블록으로 설정 */
+  position: relative; /* 상대 위치 설정 */
+  
+ 
+}
+
+.price-controls {
+ 
+  
+  margin-top: 200px; /* 위쪽 여백 조정 */
+  margin-right: 400px ;
+  padding-top: 100px;
+  padding-left:230px;
+  display: inline-block; /* 필요 시 요소를 인라인 블록으로 설정 */
+  top: 5px; /* 위쪽으로 5px 이동 */
+  right: 100px !important;
+}
+
+.timer{
+  font-size: 2em;
+  color: blue ;
+  margin-top: -95px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.timer-icon {
+  font-size: 24px; /* 아이콘 크기 */
+  margin-right: 10px; /* 아이콘과 타이머 간의 간격 */
+  color: #333; /* 아이콘 색상 */
+}
+
+/* 타이머 컨테이너 스타일 */
+#auction-timer {
+  display: flex;
+  align-items: center;
+  font-size: 2rem; /* 아이콘과 텍스트 크기를 조절 */
+  margin-top: -60px; /* 아이콘과 텍스트 사이의 여백 조정 */
+
+}
+
+
+
+/* 타이머 텍스트 스타일 */
+.timer-text {
+  font-size: 1rem; /* 타이머 텍스트 크기 조절 */
+}
+
+
+.product-description {
+  margin-top: 20px;
+}
+
+.price-controls {
+  margin-top: -15px;
+  margin-right: -10px;
+  padding-left: 210px;
+}
+
+/* .price-controls button {
+  margin-left: 10px;
+
+} */
+
+.timer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left:-2px;
+}
+
+
+
+#live-price {
+  margin-right: 100px; /* 위치 조정 */
+  margin-top: 50px;
+  padding-top: 2000px;
+}
+
+.img-80 {
+  width: 85% !important;
+  height: auto;
+  padding-left: 65px !important;
+
+
+}
+
+.img-60 {
+  width: 60% !important;
+  height: auto; 
+  display: block;
+  margin: 0 auto; 
+}
+
+.pd-top1{
+  padding-top: 20px;
+}
+
+.btn-custom {
+  position: relative;
+  padding: 10px 20px; 
+  font-size: 1.5rem; 
+  line-height: normal;
+}
+
+
+
+.form-group-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the space between the label and the input group */
+}
+
+.form-group-inner label {
+  margin: 0; /* Remove default margin if needed */
+}
+
+.input-group {
+  flex: 1; /* Makes the input group take up the remaining space */
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between checkboxes */
+}
+
+.form-check-input {
+  margin-right: 5px; /* Space between checkbox and label */
+}
+
+/* Customizable label and input sizes */
+.label-custom {
+  font-size: 1.2rem; /* Adjust the font size of labels */
+  margin-bottom: 0; /* Adjusts margin below the label if needed */
+}
+
+.input-custom {
+  font-size: 1rem; /* Adjust the font size of input fields */
+  padding: 0.5rem; /* Adjust padding inside the input fields */
+}
+
+/* Checkbox size and alignment */
+.checkbox-custom {
+  font-size: 1rem; /* Adjust font size for checkbox labels */
+  margin-right: 20px; /* Adjust space between checkboxes */
+}
+
+.form-check-input {
+  transform: scale(1.2); /* Adjusts size of the checkbox */
+  margin-right: 5px; /* Space between checkbox and label */
+}
+
+/* Align items in the same row */
+.form-group-inner {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between label and input group */
+}
+
+.input-group {
+  flex: 1; /* Makes the input group take up the remaining space */
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between checkboxes */
+  padding-left: 20px;
+}
+
+
+.link-group {
+  display: flex;
+  align-items: center; /* 수직 가운데 정렬 */
+  gap: 10px; /* 각 요소 간의 간격 조정 */
+  padding-left:80px;
+}
+
+.ps3 {
+  margin: 0; /* p 태그의 기본 마진 제거 */
+}
+
+.separator-line {
+  width: 90px;
+  height: 1px;
+  background-color: #ccc;
+  margin-top: -10px;
+}
+
+.link-group-img {
+  width: 40px !important;
+  height: auto; /* 비율에 맞게 높이 자동 조정 */
+  vertical-align: middle; /* 텍스트와 수직 정렬 맞추기 */
+  margin-right: 50px; /* 텍스트 사이 간격 조정 */
+}
+
+<style>
+    .shop .product-image {
+        position: relative;
+        overflow: hidden;
+        transition: transform 0.5s ease;
+    }
+
+    .shop .product-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease;
+    }
+
+    .shop .product-image:hover img {
+        animation: swing 0.5s ease forwards;
+    }
+
+    @keyframes swing {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(10deg);
+        }
+        50% {
+            transform: rotate(-10deg);
+        }
+        75% {
+            transform: rotate(5deg);
+        }
+        100% {
+            transform: rotate(0deg);
+        }
+    }
+
+    div.dataTables_wrapper div.dataTables_filter label {
+      display: none !important;
+  }
+
+  div.dataTables_wrapper div.dataTables_length {
+    padding-left:980px !important;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+    content: none; /* 아이콘을 제거 */
+}
+
+/* 정렬 아이콘 제거 */
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+    content: none; /* 아이콘을 제거 */
+}
+
+.form-control::placeholder {
+  /* 여기에서 ps9 클래스의 스타일을 적용 */
+  color: #999; /* 예시 */
+  font-size: 14px; /* 예시 */
+  /* 필요하면 다른 ps9 스타일 속성들도 추가 */
+}
+
+/* 기본 리스트 스타일 제거 */
+.lp-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.lp-list > li {
+  margin-bottom: 8px; /* 항목 사이에 여백을 추가 */
+}
+
+/* 하위 메뉴 스타일 */
+.lp-sub-list {
+  list-style-type: none; /* 기본 동그라미 모양 제거 */
+  padding-left: 20px !important;
+  margin: 0; /* 기본 여백 제거 */
+}
+
+.lp-sub-list li {
+  margin-bottom: 4px; /* 하위 항목 사이에 여백을 추가 */
+}
+
+.wd-write-btn {
+
+ 
+
 }
 
 

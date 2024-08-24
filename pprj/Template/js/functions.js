@@ -3440,3 +3440,19 @@ $('.custom-carousel').slick({
     slidesToScroll: 1, // 한 번에 스크롤되는 슬라이드 수
     autoplay: true, // 자동 재생 설정
   });
+
+  document.getElementById('increase-btn').addEventListener('click', function() {
+    var priceElement = document.getElementById('price');
+    var currentPrice = parseInt(priceElement.innerText.replace(/,/g, '')); // 현재 가격을 숫자로 변환
+    var newPrice = currentPrice + 1000; // 1000원 증가
+
+    // 숫자를 1,000 단위로 포맷팅
+    priceElement.innerText = newPrice.toLocaleString();
+});
+
+
+$(document).ready(function() {
+    $('#datatable').DataTable({
+        "autoWidth": false, // 자동 너비 조정을 비활성화
+    });
+});
