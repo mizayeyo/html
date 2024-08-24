@@ -6929,6 +6929,13 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   cursor: pointer !important;
 }
 
+.pw2{
+  color:#000000;
+  font-size: 2em;
+  display: inline; /* 또는 display: inline-block; */
+  margin: 0; !important;
+  cursor: pointer !important;
+}
 .pb{
   color:#000000;
   font-size: 3em;
@@ -7055,6 +7062,13 @@ section { padding: 80px 0; position: relative; width: 100%; overflow: hidden; z-
   
 }
 
+
+.ps20{
+  font-size: 2.1em ;
+  text-align: center;
+  
+  
+}
 
 .form-group {
   margin-bottom: 1rem; /* 하단 여백 설정 */
@@ -7582,10 +7596,94 @@ table.dataTable thead .sorting_desc_disabled:after {
   margin-bottom: 4px; /* 하위 항목 사이에 여백을 추가 */
 }
 
-.wd-write-btn {
-
- 
-
+.hidden-form {
+  display: none;
 }
 
+.show-form {
+  display: block;
+  margin-top: 10px;
+}
+
+.pd-top2{
+  margin-top:20px;
+  margin-bottom:20px; 
+}
+
+.bg-gr{
+  background-color: #00BCD4;
+}
+
+
+.ct-btn-custom {
+  background-color: transparent !important;
+  color: #007bff !important;
+  border: none !important;
+  padding: 0; /* 불필요한 여백 제거 */
+  font-size: 20px !important;
+}
+
+.ct-btn-custom:hover {
+  text-decoration: underline; /* 마우스를 올렸을 때 텍스트 밑줄 */
+  color: #0056b3; /* Hover 시 더 진한 파란색으로 변경 */
+}
+
+.pd-top3{
+  padding-top: -500px !important;
+}
+
+.pd-top4{
+  margin-top: -50px !important;
+}
+
+.pay-row {
+  display: flex;
+  justify-content: space-between; /* 박스 사이에 공간을 배분 */
+}
+
+.pay-box-container {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay-box {
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay-box-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.pay-gray-box {
+  width: 100%;
+  height: 200px;
+  background-color: #f7f7f7  ;
+  margin-top: 20px;
+}
+
+.custom-textarea {
+  width: 500px;
+  height: 300px;
+  resize: none; /* 사용자가 크기 조절을 하지 못하도록 설정 */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-check.d-inline-block {
+  display: inline-block;
+  margin: 0;
+}
 
